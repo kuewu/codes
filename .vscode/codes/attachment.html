@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attachment</title>
+    <style>
+        label {
+            padding: 3%;
+            background-attachment: fixed;
+            font-style: italic;
+            color: yellow;
+            font-size: 48px;
+        }
+        
+        body {
+            background-image: url(https://media.istockphoto.com/id/1218254547/photo/varied-food-carbohydrates-protein-vegetables-fruits-dairy-legumes-on-wood.webp?b=1&s=170667a&w=0&k=20&c=uGHRWrmqv4Nxdj7iUO4iYavWLjqFB3uwH1K3RQ9NID0=);
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-position: 0;
+            background-size: cover;
+            width: fit-content;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0%;
+            font-family: Arial, sans-serif;
+        }
+        
+        .container {
+            text-align: center;
+            align-content: center;
+            justify-content: center;
+            padding: 300px;
+        }
+        
+        input[type="text"],
+        select {
+            width: 400px;
+            height: 40px;
+            font-size: 28px;
+            margin-top: 10px;
+            color: black;
+            background-color: fuchsia;
+            border: 2px solid black;
+            border-radius: 5px;
+            padding: 5px;
+        }
+        
+        input[type="text"]:focus,
+        select:focus {
+            background-color: #e0ffff;
+            /* Lighter blue background color on focus */
+            border-color: #00f;
+            /* Blue border color on focus */
+            outline: none
+        }
+        
+        option {
+            font-family: 'Times New Roman', Times, serif;
+            color: brown;
+            width: 200px;
+            height: 40px;
+        }
+        
+        input[type="submit"] {
+            width: 200px;
+            height: 40px;
+            font-size: 18px;
+            margin-top: 10px;
+            color: black;
+            background-color: brown;
+            align-content: center;
+        }
+        
+        div label,
+        input,
+        select,
+        option {
+            align-content: center;
+            float: right;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- let create forms for booking-->
+    <div class="container">
+
+
+        <label for="purchases"> Purchase your Items: </label> <br>
+        <input type="text" id="purchases" value="Type and Submit">
+        <select id="purchases" name="items">
+            <option value="Books"> Books</option>
+            <option value="Lunch Bag"> Lunch Bag</option>
+            <option value="Foodstuffs"> Foodstuffs</option>
+            <option value="Drinks"> Drinks</option>
+            <option value="Sugar"> Sugar </option>
+            <option value="Noodlees"> Noodlees</option>
+            <option value="Oil"> Oil</option>
+            <option value="Juice"> Juice</option>
+            <option value="Toiletry"> Toiletry</option>
+            <option value="Rice"> Rice</option>
+            <option value="Milk"> Milk</option>
+            <option value="Canned Meat"> Canned Meat</option>
+            <option value="Fish"> Fish</option>
+            <option value="Soap"> Soap</option>
+            <option value="Vegetables"> Vegetables</option>
+            <option value="Sardine"> Sardine</option>
+            <option value="Milo"> Milo</option>
+            <option value="Lipton"> Lipton</option>
+            <option value="Froven Beef"> Froven Beef</option>
+            <option value="Cheese"> Cheese</option>
+            <option value="Salt"> Salt</option>
+            <option value="Gold"> Gold</option>
+            <option value="Carrot"> Carrot</option>
+            <option value="Cucumber"> Cucumber</option>
+            <option value="Tomato"> Tomato</option>
+            <option value="Eggplant"> Eggplant</option>
+            <option value="Magi"> Magi</option>
+
+        </select> <br>
+
+
+        <input type="submit">
+    </div>
+
+</body>
+
+</html>
